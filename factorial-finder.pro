@@ -3,8 +3,11 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.cpp \
-    finder.cpp
+SOURCES += "/src/main.cpp" \
+    "/src/finder.cpp" \
+    src/finder.cpp \
+    src/main.cpp
 
 HEADERS += \
-    finder.h
+    /src/finder.h \
+    src/finder.h
